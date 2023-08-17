@@ -12,7 +12,7 @@
 // }
 import fs from 'fs'                                   
 
-let names = ['nikki', 'sween', 'sachin', 'priya', 'mahemdra'];
+let names = ['nikki', 'sween', 'sachin', 'priya', 'mahendra'];
 let age = [20, 23, 21, 22, 25];
 let email = ['nikfgd123@gamil.com', 'nikfgd123@gamil.com', 'nikfgd123@gamil.com', 'nikfgd123@gamil.com', 'nikfgd123@gamil.com'];
 
@@ -26,5 +26,7 @@ fs.writeFile('output.txt', output, (err) => {
   console.log(err) 
   console.log('Data has been written to output.txt');
 });
+
+
 
 
